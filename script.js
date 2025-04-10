@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         const slider = document.querySelector(".slider");
         const entries = Object.entries(data)
-        .filter(([_, url]) => url.includes("/slider/covers"));
+        .filter(([_, url]) => url.includes("/gallery/covers"));
 
         slider.style.setProperty('--quantity', entries.length);
 
