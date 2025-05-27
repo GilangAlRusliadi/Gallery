@@ -18,7 +18,7 @@ body{
 }
 
 body {
-    background-image: url('/images/background.jpg');
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,7 +33,7 @@ body::before{
     height: 90%;
     transform: translateX(-50%);
     content: '';
-    background-image: url('/images/sparkling.png');
+    background-image: url('images/sparkling.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
